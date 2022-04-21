@@ -1,0 +1,45 @@
+@import "./null";
+@import "./standart";
+
+.header{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 962px;
+    background-image: url(/img/back.jpg);
+    width: 100vw ;
+    border: 1px solid ;
+
+    .header__menu{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+        margin: 6% 5px 18% 5px;
+        .header__logo{
+        }
+        .header__nav{
+            display: flex;
+
+            gap: 5.6vw;
+            flex-wrap: wrap;
+
+            .header__link{
+                
+                white-space:nowrap
+            }
+        }
+    }
+    p{
+        color: #FFFFFF;
+        width: 36vw;
+       
+    }
+    form{
+        display: flex;
+    }
+}
+
+
+// font-size: 24px;
+// line-height: 121%;
